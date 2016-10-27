@@ -79,9 +79,13 @@ public class TicketMachine
     {
        precio = newPrecio;
     }
-        public void aviso()
+    public void aviso()
     {
       System.out.println("# Por favor, inserta la correcta cantidad de dinero");  
+    }
+    public void mostrarPrecio()
+    {
+      System.out.println("# El precio de un ticket es "+precio+" euros");  
     }
 }
        
